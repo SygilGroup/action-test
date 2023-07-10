@@ -18,9 +18,9 @@ jobs:
           submodules: recursive
 
       - name: Install Foundry
-        uses: SygilGroup/foundry-toolchain@v1.0.10
+        uses: foundry-rs/foundry-toolchain@v1
         with:
-          version: v1.0.10
+          version: nightly
 
       - name: Run Forge build
         run: |
